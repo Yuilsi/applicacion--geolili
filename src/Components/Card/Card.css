@@ -1,24 +1,48 @@
 .card {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    width: 250px;
-    padding: 16px;
-    margin: 8px;
-    cursor: pointer;
-    transition: box-shadow 0.5s ease;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  
-  .card:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.19);
-  }
+  background-color: #fff;
+  border-radius: 18px;
+  width: 85vw;
+  padding: 22px;
+  margin: 8px;
+  cursor: pointer;
+  transition: box-shadow 0.5s ease;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  
-  .flag-icon {
-    color: #3498db; 
-    font-size: 24px;
-    margin-top: 8px;
-  }
-  
+.card h4 {
+
+  color: var(--Gray-800, #313131);
+  /* Text/Subtitle */
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22.84px;
+
+}
+
+.card p {
+
+  color: #000;
+
+  /* Text/Caption */
+  font-family: Inter;
+  font-size: 14.22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 18.04px;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.19);
+}
+
+
+.flag-icon {
+  color: #3498db;
+  font-size: 24px;
+  margin-top: 8px;
+}

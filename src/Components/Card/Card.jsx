@@ -12,6 +12,7 @@ export function Card({ name, location, navigateToModal }) {
         <h4>{name}</h4>
         <p>{location}</p>
       </div>
+      
       <FaFlag />
     </div>
   );
