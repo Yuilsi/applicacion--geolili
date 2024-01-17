@@ -1,0 +1,39 @@
+h1 {
+display: flex;
+width: 149.408px;
+height: 25.941px;
+flex-direction: column;
+justify-content: center;
+flex-shrink: 0;
+
+color: var(--Gray-700, #414141);
+
+/* Text/H2 */
+font-family: Inter;
+font-size: 22.78px;
+font-style: normal;
+font-weight: 500;
+line-height: 28.9px; /* 126.866% */
+}
+
+.options {
+
+    color: var(--Gray-600, #525252);
+    /* Text/Subtitle */
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.84px; /* 126.889% */
+
+
+width: 333.132px;
+height: 46.002px;
+flex-shrink: 0;
+
+border-radius: 16px;
+border: 1px solid rgba(0, 0, 0, 0.17);
+background: #FFF;
+
+margin-top: 25px;
+}
