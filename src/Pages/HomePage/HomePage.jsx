@@ -26,7 +26,7 @@ export function HomePage() {
 <section className='cards-group'>
       <Card name="Ortopedia" location="Piso 1" navigateToModal={navigateToModal} />
       <Card name="Cardiología" location="Piso 2" navigateToModal={navigateToModal} />
-      <Card name="Medicina familiar" location="Piso 1" navigateToModal={navigateToModal} />
+      <Card name="farmacia" location="Piso 1" navigateToModal={navigateToModal} />
 </section>
   
       <NavBar />
