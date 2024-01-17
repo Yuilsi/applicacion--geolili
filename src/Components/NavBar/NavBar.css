@@ -1,0 +1,31 @@
+nav {
+    width: 250px;
+    padding: 15px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-size: 24;
+    color: #1092a1;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
