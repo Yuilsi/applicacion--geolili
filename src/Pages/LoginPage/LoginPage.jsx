@@ -17,7 +17,7 @@ export function LoginPage() {
     }
 
     console.log("Login successful");
-    navigate("/home");
+    navigate("/intro");
   };
 
   return (

@@ -89,8 +89,12 @@
 }
 
 .contraseña-problema {
+    width: 100%;
+    padding-right: 45px;
     display: flex;
-    justify-content: right;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
 }
 
 a {
