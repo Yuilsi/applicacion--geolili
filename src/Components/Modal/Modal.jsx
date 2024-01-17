@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { FaChevronLeft } from "react-icons/fa";
+import { NavBar, SearchInput } from "../../Components";
 
 import "./Modal.css";
 
@@ -8,13 +9,26 @@ export function Modal() {
 
   const handleButtonClick = (path) => {
     navigate(path);
+    
   };
+
+  const navigateToModal = () => {
+    navigate('/modal');
+  };
+
+  const navigateToModal_2 = () => {
+    navigate('/modal_2');
+  };
+
 
   return (
     
     <div className="map-section">
 
-
+    <div className="searchbar">
+    <SearchInput  navigateToModal={navigateToModal} />
+    </div>
+    
     <section className="modal-card">
       
       
@@ -31,7 +45,7 @@ export function Modal() {
 
       <div className="botones-ruta">
         <button className="rutas-btn selected-btn">Ruta sugerida</button>
-        <button className="rutas-btn">Otra ruta</button>
+        <button className="rutas-btn" onClick={navigateToModal_2} >Otra ruta</button>
       </div>
       <div className="ubicaciones">
       <div className="locacion-section">
@@ -47,6 +61,7 @@ export function Modal() {
         <button id="modal__ir" onClick={() => handleButtonClick("/video")}>Ir</button>
    
     </section>
+    <NavBar/>
     </div>
   );
 }
