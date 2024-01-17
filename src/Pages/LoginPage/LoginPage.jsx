@@ -50,7 +50,7 @@ export function LoginPage() {
           onChange={(e) => setPassword(e.target.value)}
         />
       </div>
-      {error && <p style={{ color: "red" }}>{error}</p>}
+      {error && <p className="error-red" style={{ color: "red" }}>{error}</p>}
       <div className="contraseña-problema"><a href="#">¿Ha olvidado su contraseña?</a></div>
       <button id="enviar-login" onClick={handleLogin}>Iniciar sesión</button>
 

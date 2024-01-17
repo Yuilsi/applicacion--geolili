@@ -193,7 +193,7 @@ hr {
 }
 
 .registrar {
-    margin-top: 125px;
+    margin-top: 95px;
     margin-bottom: 35px;
     width: 100dvw;
     display: flex;
@@ -223,6 +223,16 @@ hr {
 
 }
 
-.registrar>div:first-child{
+.registrar>div:first-child {
     width: 119px
+}
+
+.error-red {
+    text-align: center;
+    /* Text/Caption */
+    font-family: Inter;
+    font-size: 14.22px;
+    font-style: normal;
+    line-height: 18.04px;
+    margin-bottom: 10px;
 }
