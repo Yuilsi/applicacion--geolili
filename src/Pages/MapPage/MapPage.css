@@ -1,0 +1,12 @@
+.imgIcono {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 20px; /* Ajusta el margen según tus preferencias */
+    z-index: 999; /* Ajusta el índice Z para asegurar que esté sobre otras capas */
+  }
+  #img {
+    width: 50px; /* Ajusta el tamaño de la imagen según tus preferencias */
+    height: 50px;
+    /* Otros estilos que desees aplicar a la imagen */
+  }

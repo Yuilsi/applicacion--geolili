@@ -10,6 +10,15 @@ export function MapPage() {
 
   return (
     <>
+      
+      <div>
+     
+
+     <div className="imgIcono">
+           <img src="./src/Assets/icons/iconoMapa.png" id="img" />
+            </div>
+    
+      </div>
       <div>
         <SearchInput navigateToModal={navigateToModal} />
         <img src="./src/Assets/map.jpg" alt="Map" />
