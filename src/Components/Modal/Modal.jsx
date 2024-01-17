@@ -11,26 +11,42 @@ export function Modal() {
   };
 
   return (
-    <>
-      <button onClick={() => handleButtonClick("/home")}>
+    
+    <div className="map-section">
+
+
+    <section className="modal-card">
+      
+      
+
+      <div className="modal__header">
+      <button className="chev-back" onClick={() => handleButtonClick("/home")}>
         <FaChevronLeft />
       </button>
-      <div>
-        <button>Ruta sugerida</button>
-        <button>Otra ruta</button>
+
+      <p>Destino</p>
       </div>
-      <div>
+
+      <hr className="separador-titulo" />
+
+      <div className="botones-ruta">
+        <button className="rutas-btn selected-btn">Ruta sugerida</button>
+        <button className="rutas-btn">Otra ruta</button>
+      </div>
+      <div className="ubicaciones">
+      <div className="locacion-section">
         <p>Ubicación actual</p>
-        <h3>Entrada principal 1</h3>
+        <h3 className="gray-bg">Entrada principal 1</h3>
       </div>
-      <div>
+      <div className="locacion-section">
         <p>Próximo destino</p>
-        <h3>Ortopedia</h3>
+        <h3 className="gray-bg">Ortopedia</h3>
       </div>
-      <h3>Tiempo estimado: 1:30 min</h3>
-      <div>
-        <button onClick={() => handleButtonClick("/video")}>Ir</button>
       </div>
-    </>
+      <h3 className="tiempo-estimado">Tiempo estimado: 1:30 min</h3>
+        <button id="modal__ir" onClick={() => handleButtonClick("/video")}>Ir</button>
+   
+    </section>
+    </div>
   );
 }

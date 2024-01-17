@@ -34,7 +34,7 @@ export function SearchInput({ navigateToModal }) {
     <div>
       <input className="search-input"
         type="text"
-        placeholder="Search..."
+        placeholder="Buscar"
         value={query}
         onChange={handleInputChange}
       />
