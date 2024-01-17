@@ -12,7 +12,7 @@ export function MapPage() {
     <>
       <div>
         <SearchInput navigateToModal={navigateToModal} />
-        <img src="./assets/map.jpg" alt="Map" />
+        <img src="./src/Assets/map.jpg" alt="Map" />
       </div>
       <NavBar />
     </>
