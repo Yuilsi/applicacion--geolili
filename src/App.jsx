@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import { LoginPage, HomePage, ResultsPage, VideoPage, MapPage, ProfilePage } from './Pages';
-import { Modal } from './Components';
+import { Modal, Modal_2 } from './Components';
 
 export function App() {
   return (
@@ -14,6 +14,7 @@ export function App() {
         <Route path="/map" element={<MapPage />} />
         <Route path="/profile" element={<ProfilePage />} />
         <Route path="/modal" element={<Modal />} />
+        <Route path="/modal_2" element={<Modal_2 />} />
       </Routes>
     </Router>
   );
