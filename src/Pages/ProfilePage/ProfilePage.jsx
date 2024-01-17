@@ -41,7 +41,7 @@ export function ProfilePage() {
        
       </div>
      
-     <div className="contentlogin"><a href="ProfileNull.jsx"><span class="subrayado">cerrar sesión</span></a></div>
+     <div className="contentlogin"><a href="ProfileNull.jsx"><span className="subrayado">cerrar sesión</span></a></div>
      </div>
 
      

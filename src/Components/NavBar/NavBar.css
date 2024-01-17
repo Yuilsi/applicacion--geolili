@@ -1,5 +1,5 @@
 nav {
-    width: calc(100vw - 30px);
+    width: 100vw;
     padding: 15px;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -23,13 +23,17 @@ nav {
   li {
     margin: 0;
   }
-  
+  /*
   nav a {
     text-decoration: none;
     font-size: 24;
     color: #1092a1;
-  }
+  }*/
   
+  li.active svg {
+    color: #10CE85; /* Puedes personalizar este color */
+  }
+
   nav a:hover {
     text-decoration: underline;
   }

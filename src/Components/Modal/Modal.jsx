@@ -35,7 +35,7 @@ export function Modal() {
 
       <div className="modal__header">
       <button className="chev-back" onClick={() => handleButtonClick("/home")}>
-        <FaChevronLeft />
+        <FaChevronLeft/>
       </button>
 
       <p>Destino</p>

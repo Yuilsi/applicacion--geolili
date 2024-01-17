@@ -39,6 +39,11 @@ return (
 
     <hr className="separador-titulo" />
 
+    <div className="botones-ruta">
+        <button className="rutas-btn"onClick={navigateToModal}>Ruta sugerida</button>
+        <button className="rutas-btn selected-btn"  >Otra ruta</button>
+      </div>
+
     <section className="card-modal_2">
       <div>
         <h4>Ortopedia</h4>

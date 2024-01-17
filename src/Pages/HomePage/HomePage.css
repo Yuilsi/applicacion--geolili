@@ -7,8 +7,8 @@
 }
 
 .saludo-card {
-    width: calc(100vw - 80px);
-    height: 190px;
+    width: 100vw;
+    height: 220px;
     padding: 40px;
     border-radius: 0px 0px 43px 43px;
     background-color: #fff;
@@ -16,7 +16,7 @@
 }
 
 .mas-buscados {
-    padding: 15px;
+    padding: 22px;
 }
 
 .mas-buscados p {
@@ -50,13 +50,14 @@ h1 {
 }
 
 h2 {
-    margin-bottom: 55px;
+    margin-bottom: 40px;
 }
 
 .cards-group {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    align-items: center;
 }
 
 .searchbar{
